@@ -9,5 +9,39 @@
     android:paddingRight="16dp"
     android:paddingTop="16dp"
     android:paddingBottom="16dp"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="#26ade0">
+
+    <Button
+        android:id="@+id/askButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="122dp"
+        android:background="#3F51B5"
+        android:text="Ask"
+        android:layout_centerHorizontal="true"
+
+        android:textColor="#FFF" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Make everyday decisions easier!"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000"
+        android:id="@+id/tv"
+        />
+    <ImageView
+        android:id="@+id/image_eightBall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv"
+        android:layout_above="@id/askButton"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ball1"
+
+        />
+
 </RelativeLayout>
